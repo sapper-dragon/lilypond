@@ -1,0 +1,29 @@
+{
+  "name": "@sapper-dragon/lilypond",
+  "version": "0.0.5",
+  "description": "Decorate your Sapper project with LilyPond.",
+  "license": "MIT",
+  "author": "Robert Hall <langbert@gmail.com> (http://arxpoetica.com/)",
+  "homepage": "https://github.com/sapper-dragon/lilypond#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapper-dragon/lilypond.git"
+  },
+  "keywords": [
+    "svelte",
+    "sapper",
+    "lilypond",
+    "music"
+  ],
+  "bugs": {
+    "url": "https://github.com/sapper-dragon/lilypond/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ansi-colors": "3.2.4"
+  },
+  "devDependencies": {}
+}
