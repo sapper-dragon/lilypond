@@ -14,7 +14,7 @@ yarn add @sapper-dragon/lilypond --dev
 
 ## Usage
 
-This project requires the [@sapper-dragon/trimmings](https://github.com/sapper-dragon/trimmings) lib, so look there first for first instructions, then come back. 💫
+This project requires the [@sapper-dragon/trimmings](https://github.com/sapper-dragon/trimmings) lib, so look there first for instructions, then come back. 💫
 
 ### LilyPond CLI
 
@@ -32,9 +32,9 @@ You can place a `trimmings.config.js` file in the root of your project to set co
 ```js
 export default {
 	lilypond: {
-		import: 'src/trimmings/lilypond', // path to watch *.ly files
+		input: 'src/trimmings/lilypond', // path to watch *.ly files
 		filter: /\.ly$/, // pattern for files to watch
-		exportStatic: 'static/music', // output path
+		outputStatic: 'static/music', // output path
 	},
 	// ... additional settings from other @sapper-dragon packages...
 }
